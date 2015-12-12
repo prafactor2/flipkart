@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.20"
+            android:scaleType="centerCrop"
+            android:src="@drawable/levis" />
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="LEVI'S"
+            android:textColor="#ffffff"
+            android:textSize="36dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/levislogo1" />
+                </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                >
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/star"
+            android:gravity="center"
+            android:text="4.3"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@id/star"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/star" />
+
+        <TextView
+            android:id="@+id/reviewnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/review"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/review"
+            android:text="124"
+            android:textColor="#ffffff"
+
+            />
+
+        <ImageView
+            android:id="@+id/review"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_above="@+id/star"
+
+            android:src="@drawable/review2"
+
+            />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

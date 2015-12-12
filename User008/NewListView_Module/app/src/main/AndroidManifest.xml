@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khaalijeb.newlistview_module" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.khaalijeb.newlistview_module.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.khaalijeb.newlistview_module.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:compatibleWidthLimitDp="480"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:requiresSmallestWidthDp="320"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kj"
+        android:label="KHAALIJEB"
+        android:theme="@style/AppTheme"
+        android:name="android.support.multidex.MultiDexApplication" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        <activity
+            android:name=".Splashscreen"
+            android:label=".Splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/title_activity_first" >
+
+            <!-- android:theme="@style/TransparentTheme" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".WalletActivity"
+            android:label="Wallet" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.khaalijeb.newlistview_module.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".ChangePass"
+            android:label="Change Password"
+            android:parentActivityName=".Profile"
+            android:theme="@style/AppTheme2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.khaalijeb.newlistview_module.Profile" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.khaalijeb.newlistview_module.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SignUpSecondStage"
+            android:label="@string/title_activity_sign_up_second_stage" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Testing"
+            android:label="@string/title_activity_testing" >
+        </activity>
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+        <activity
+            android:name=".gallery"
+            android:label="@string/title_activity_gallery"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".merchantprofile"
+            android:label="@string/title_activity_merchantprofile" >
+        </activity>
+        <activity
+            android:name=".Reviewactivity"
+            android:label="@string/title_activity_reviewactivity" >
+        </activity>
+        <activity android:name=".GridViewActivity" >
+        </activity>
+        <activity android:name=".SwipeActivity" >
+        </activity>
+        <activity android:name=".brandprofile" >
+        </activity>
+        <activity android:name=".GridViewActivity2" >
+        </activity>
+        <activity android:name=".brandtimeline" >
+        </activity>
+        <activity android:name=".Allbrands" >
+        </activity>
+        <activity android:name=".Allposts" >
+        </activity>
+        <activity android:name=".brandsearch" >
+        </activity>
+        <activity android:name=".SwipeActivity2" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.khaalijeb.newlistview_module" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".MyGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".RegistrationIntentService"
+            android:exported="false" >
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".locationsearch"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" >
+        </activity>
+        <activity android:name=".ShopSearch" >
+        </activity>
+        <activity android:name=".StartingActivity" >
+        </activity>
+        <activity android:name=".SignupActivity" >
+        </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity android:name=".PromoCodeActivity" >
+        </activity>
+        <activity android:name=".PaymentOption" >
+        </activity>
+        <activity android:name=".AddMoneyActivity" >
+        </activity>
+    </application>
+
+</manifest>

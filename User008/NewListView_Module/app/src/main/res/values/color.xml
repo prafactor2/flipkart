@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#000000</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#000000</color>
+    <color name="colorDark">#004D40</color>
+    <color name="colortab">#757575</color>
+    <color name="colorbackground">#ffffff</color>
+    <color name="hintcolor">#757575</color>
+    <color name="tabindicator">#E12728</color> //for changing tabtext and indicator color
+    <color name="coloriconsontab">#000000</color>
+    <color name="colortabbackground">#ffffff</color>
+    <color name="colortext">#009456</color>
+    <color name="text_tab_selected">#0277bd</color>
+    <color name="text_tab_unselected">#AB47BC</color>
+    <color name="drawertextcolor">#000000</color>
+    <color name="textcoloronedittext">#000000</color>
+    <color name="tabindicatorcolorwallet">#e12728</color> //for changing wallet and first activity tabs color
+    <color name="coloricons1">#000000</color>
+    <color name="colorbackgroundsign">#0277bd</color>
+    <color name="floatingbuttonunpressed">#FBC02D</color>
+    <color name="floatingbuttonpressed">#FFEE58</color>
+    <color name="ColorAccent">#E12728</color>
+    <color name="colorcursor">#000000</color>
+    <color name="pressed">#9e9e9e</color>
+    <color name="unpressed">#ffffff</color>
+    <color name="colortabbackground2">#101010</color>
+    <color name="pressed1">#E12728</color>
+    <color name="unpressed1">#bbbbbb</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+
+
+</resources>

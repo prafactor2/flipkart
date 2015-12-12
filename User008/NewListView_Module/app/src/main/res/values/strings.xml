@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Khaalijeb
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wallet_icon_text">Wallet</string>
+    <string name="nofication_icon_text">Notification</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="app_id">989897507744805</string>
+    <string-array name="brandname">
+
+        <item>NIKE</item>
+        <item>WRANGLER</item>
+        <item>LEE</item>
+        <item>LIFESTYLE</item>
+        <item>VERA MODA</item>
+        <item>JACK JONES</item>
+        <item>ALLEN SOLLY</item>
+        <item>TOMMY HILFIGER</item>
+        <item>VERSACE</item>
+
+    </string-array>
+
+    <string-array name="desc">
+
+        <item>Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing and worldwide marketing and sales of footwear, apparel, equipment, accessories and services.</item>
+        <item>Wrangler is an American manufacturer of jeans and other clothing items, particularly workwear The brand is owned by the VF Corporation, who also own Lee, JanSport, and The North Face, among others.</item>
+        <item>Lee is an American brand of denim jeans, first produced in 1889 in Salina, Kansas. The company is owned by VF Corporation, the largest apparel company in the world.</item>
+        <item>Lifestyle is an Indian fashion retailer chain promoted by the Landmark Group. It started in the year 1999 with its first store located in Chennai.</item>
+        <item>Simply the fashion choice for the girls wardrobe. VERO MODA is the brand of choice for the fashion-conscious, independent young woman.</item>
+        <item>Jack Jones - brand targeted at younger customers, with underwear and other.</item>
+        <item> Brand Allen Solly, part of William Hollins Co. Ltd, was born in 1744.</item>
+        <item>Tommy Hilfiger is an American fashion, apparel, design, fragrance retail company, offering men’s, women’s and children’s apparel, sportswear, denim, and a range of licensed products such as accessories.</item>
+        <item>Gianni Versace S.p.A., usually referred to as Versace, is an Italian fashion company and trade name founded by Gianni Versace in 1978.</item>
+
+    </string-array>
+
+    <string-array name="titles">
+        <item>Account</item>
+        <item>Credits</item>
+        <item>Transactions</item>
+        <item>Chat With Us</item>
+        <item>About Us</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="CITIES">
+        <item>Bangalore</item>
+        <item>Allahabad</item>
+        <item>Cochin</item>
+        <item>Delhi</item>
+        <item>Faridabad</item>
+        <item>Gujrat</item>
+    </string-array>
+    <string-array name="titles2">
+        <item>FRIENDS FOREVER</item>
+        <item>CELEBRATIONS</item>
+        <item>TACO BELL</item>
+        <item>MILAN DA BHADA</item>
+        <item>SPIRITZ</item>
+        <item>TRUFFELS</item>
+        <item>SATKAR</item>
+
+    </string-array>
+    <string-array name="address">
+        <item>52,Central park,London,unitedst</item>
+        <item>34/4,Street-5,New Jersey,unit</item>
+        <item>5,Central Hall,Colorado</item>
+        <item>2,5th street,Alabama</item>
+        <item>527,USA</item>
+        <item>527,DEOGHAT,Allahabad</item>
+        <item>527,Chudasandra,Bangalore</item>
+
+    </string-array>
+
+    <string-array name="type">
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+        <item>Restaurant</item>
+
+    </string-array>
+
+    <string-array name="rating">
+        <item>4.0</item>
+        <item>4.6</item>
+        <item>3.5</item>
+        <item>1.7</item>
+        <item>5.0</item>
+        <item>3.6</item>
+        <item>2.7</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item>4.0</item>
+        <item>4.6</item>
+        <item>3.5</item>
+        <item>1.7</item>
+        <item>5.0</item>
+        <item>3.6</item>
+        <item>2.7</item>
+    </string-array>
+
+    <string-array name="votes">
+        <item>56</item>
+        <item>789</item>
+        <item>2001</item>
+        <item>9</item>
+        <item>456</item>
+        <item>20</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="categories">
+
+        <item>Fashion</item>
+        <item>Fashion</item>
+        <item>Wellness</item>
+        <item>Others</item>
+        <item>Fashion</item>
+        <item>Wellness</item>
+        <item>Fashion</item>
+
+    </string-array>
+
+    <string-array name="categories2">
+
+        <item>Fashion</item>
+        <item>Fashion</item>
+        <item>Wellness</item>
+        <item>Fashion</item>
+        <item>Wellness</item>
+        <item>Others</item>
+        <item>Fashion</item>
+        <item>Wellness</item>
+        <item>Fashion</item>
+
+    </string-array>
+    <string-array name="details2">
+
+
+        <item>Minimum 30 To 50 Off On Nike Products</item>
+        <item>Fashion Sale – Flat 25 To 70 Off On Top Fashion Brands</item>
+        <item>Fashion Sale – Min 30 To 50 Extra Cashback On Clothing, Footwear  Accessories</item>
+        <item>Fall Winter Sale – Flat 20 Off On Select Products</item>
+        <item>Up to 90 Off + Extra 50 Cashback On Accessories  Footwear</item>
+        <item>Up to 80 Discount + Extra 30 Discount On Men Fashion Collection</item>
+        <item>Up to 80 Discount + Extra 30 Discount On Men Fashion Collection</item>
+        <item>Biggest Festival Sale – Up to 50 Off On Ethnic Wear</item>
+        <item>Biggest Festival Sale – Up to 50 Off On Ethnic Wear</item>
+    </string-array>
+    <string-array name="details">
+
+
+        <item>Minimum 30 To 50 Off On Nike Products</item>
+        <item>Fashion Sale – Flat 25 To 70 Off On Top Fashion Brands</item>
+        <item>Fashion Sale – Min 30 To 50 Extra Cashback On Clothing, Footwear  Accessories</item>
+        <item>Fall Winter Sale – Flat 20 Off On Select Products</item>
+        <item>Up to 90 Off + Extra 50 Cashback On Accessories  Footwear</item>
+        <item>Up to 80 Discount + Extra 30 Discount On Men Fashion Collection</item>
+        <item>Biggest Festival Sale – Up to 50 Off On Ethnic Wear</item>
+    </string-array>
+
+    <string name="title_activity_transfer_money">TransferMoneyActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_change_pass">ChangePass</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <!-- Strings related to login -->
+    <string name="action_transfer">Transfer</string>
+    <string name="jeb_no">Jeb No.</string>
+    <string name="amount">Amount</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="title_activity_test">TestActivity</string>
+    <!-- Strings related to transfer and add -->
+    <string name="transfer_button_text">Send</string>
+    <string name="add_button_text">Add</string>
+    <string name="pay_button_text">Pay</string>
+    <!---daily need data source-->
+    <string-array name="daily_data">
+        <item>Recharge</item>
+        <item>Fees</item>
+        <item>Book Movies</item>
+    </string-array>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="message">welcome to snackbar</string>
+    <string-array name="recharge_provider">
+        <item>Docomo</item>
+        <item>Airtel</item>
+        <item>Aircel</item>
+        <item>Reliance</item>
+        <item>Vodafone</item>
+    </string-array>
+    <string-array name="dth_provider">
+        <item>Select Provider</item>
+        <item>Airtel Digital TV</item>
+        <item>Reliance Digital TV</item>
+        <item>Reliance Digital TV</item>
+        <item>Sun Direct</item>
+        <item>Tata Sky</item>
+        <item>Videocon d2h</item>
+    </string-array>
+    <string name="title_activity_after_add_money">AfterAddMoney</string>
+    <string name="title_activity_sign_up_second_stage">SignUpSecondStage</string>
+    <string name="title_activity_chat_with_us">ChatWithUsActivity</string>
+
+    <string name="message_hint">Write a Message....</string>
+    <string name="send">Send</string>
+    <string name="title_activity_merchant_main">Merchant_main</string>
+    <string name="title_activity_loginmerchant">Loginmerchant</string>
+    <string name="title_activity_accept">Accept</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_all">All</string>
+    <string name="title_activity_stores">Stores</string>
+    <string name="title_activity_rests">Rests</string>
+    <string name="title_activity_testing">Testing</string>
+
+
+    <string name="inbox_string">Home</string>
+    <string name="starred_string">Account</string>
+    <string name="sent_mail_string">Earn Credits</string>
+    <string name="draft_string">Manage Cards</string>
+    <string name="all_mail_string">Support</string>
+    <string name="trash_string">Feedback</string>
+    <string name="subheader">Subheader</string>
+    <string name="spam_string">Log Out</string>
+    <string name="navigation_item_1">Feedback</string>
+    <string name="navigation_item_2">Rate Us</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="navigation_subheader"></string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_finalsearch">finalsearch</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_managecards">Managecards</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_gallery">gallery</string>
+    <string name="title_activity_image">image</string>
+    <string name="title_activity_merchantprofile">merchantprofile</string>
+    <string name="title_activity_reviewactivity">Reviewactivity</string>
+
+</resources>
