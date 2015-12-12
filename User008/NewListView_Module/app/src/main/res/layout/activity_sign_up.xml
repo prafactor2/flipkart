@@ -101,7 +101,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|center_horizontal"
-                        android:hint="Confirm Password"
+                        android:hint="Confirm"
                         android:inputType="textPassword"
                         android:paddingLeft="10dp"
                         android:textColor="@color/material_blue_grey_800"
