@@ -12,7 +12,4 @@ public class allbrandsdata {
     String desc;
     String category;
     String rating;
-
-
-
 }
